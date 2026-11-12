@@ -103,7 +103,7 @@ export const weddingData = {
     {
       id: "haldi",
       title: {
-        hi: "सिलमयान (सिलबट्टा पूजन)",
+        hi: "सिलमायन (सिलबट्टा पूजन)",
         en: "Silmayan Ceremony"
       },
      tagline: {
