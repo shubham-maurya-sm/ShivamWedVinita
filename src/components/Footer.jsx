@@ -51,7 +51,7 @@ export default function Footer({ lang, onReplayEnvelope }) {
               : 'Warmly hosted by the Maurya Family'}
           </p>
           <span className="text-[11px] text-[#D4AF37]/80 tracking-wide font-serif">
-            Shivam Weds Vinita • Shivam Vinita • shivamvinita.in
+            Shivam Weds Vinita • Shivam Vinita • shivamwedsvinita.vercel.app
           </span>
           <div className="flex items-center gap-1.5 text-[#F5D77F]">
             <span>सदा सुमंगलम्</span>
