@@ -59,8 +59,3 @@ To enable live persistence for wishes, flower counts, and RSVPs:
 4. Under **Project Settings -> Domains**, add `deepasumit.in` and follow the DNS instructions for your domain registrar.
 
 ---
-
-## 📜 License & Credits
-
-- Designed with love and blessings for **Deepa & Sumit**.
-- Crafted with traditional Indian wedding aesthetics.
