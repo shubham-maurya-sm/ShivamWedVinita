@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #FAF7F0;
+    color: #4A0E17;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9B111E;
+}
+
+/* Traditional Gold Gradient Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.crimson-gradient-text {
+  background: linear-gradient(135deg, #7A0A15 0%, #9B111E 50%, #C41E3A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Shimmer Animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer-badge {
+  background: linear-gradient(90deg, rgba(212,175,55,0.15) 0%, rgba(212,175,55,0.4) 50%, rgba(212,175,55,0.15) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 4s infinite linear;
+}
+
+/* Soft Diya Flame Glow */
+@keyframes flameFlicker {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.95;
+    filter: drop-shadow(0 0 6px rgba(234, 163, 21, 0.8));
+  }
+  50% {
+    transform: scale(1.08) translateY(-1px);
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.95));
+  }
+}
+.diya-flame {
+  animation: flameFlicker 2s infinite ease-in-out;
+}
